@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between; /* adding space between flex items */
+}
+
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.header-menu{
+    list-style: none;
+    display: flex;
+    color: white;
+    gap: 2rem; /* adding gap between rows and columns */
+}
+
+.header-menu > li:hover {
+    cursor : pointer; /* adding pointer cursor */
+    color: var(--orange); 
+}
